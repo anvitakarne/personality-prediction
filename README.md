@@ -1,22 +1,30 @@
+# 🧠 Personality Prediction Using Deep Learning
+
+🚀 This project explores **personality prediction** using **Machine Learning (ML) and Deep Learning (DL)** models.  
+We compare traditional **Naïve Bayes** with advanced **LSTM, Bi-LSTM, Bi-LSTM + Attention, and DistilBERT** models on **MBTI personality type data**.
+
+![Personality Distribution](figures/Personality_Distribution.png)
 
 ---
 
-## **📌 Why This README Works?**
-✅ **Engaging Header**: Catchy title and emojis make it visually appealing.  
-✅ **Project Overview**: Clearly explains **what the project does**.  
-✅ **Installation Guide**: Helps others **easily set up** the project.  
-✅ **EDA & Results**: Visuals and **performance tables** highlight insights.  
-✅ **Future Work**: Shows **potential improvements**, making the project future-proof.  
-✅ **Project Structure**: Helps **navigate the repository quickly**.  
-✅ **Contact & Contribution**: Encourages collaboration and networking.  
+## 📌 **Project Overview**
+- **🔍 Problem Statement:** Can we predict a person's MBTI personality type based on their textual data?
+- **🧑‍💻 Models Used:**
+  - ✅ **Naïve Bayes** (Baseline)
+  - ✅ **LSTM** (Recurrent Neural Network)
+  - ✅ **Bi-LSTM** (Bidirectional LSTM)
+  - ✅ **Bi-LSTM + Attention** (Best Model - **96% Accuracy**)
+  - ✅ **DistilBERT** (Transformer-based model)
+- **📊 Dataset:** MBTI Personality Types Dataset (~8,000 samples)
+- **⚡ Techniques Used:** NLP Preprocessing, Word Embeddings, Class Balancing (SMOTE)
+- **🏆 Best Model:** **Bi-LSTM + Attention** achieved **96% accuracy** 🎯
 
 ---
 
-### 🚀 **Next Steps**
-- **Update your `README.md`** with this **template**.
-- **Replace placeholders** (like dataset details, figures) with **your actual files**.
-- **Commit & push the updated `README.md`**:
-  ```bash
-  git add README.md
-  git commit -m "Updated README with project overview, results, and visuals"
-  git push origin main
+## 🚀 **Installation & Setup**
+To run this project locally:
+
+1️⃣ **Clone the repository**  
+```bash
+git clone https://github.com/anvitakarne/personality-prediction.git
+cd personality-prediction
