@@ -3,7 +3,6 @@
 🚀 This project explores **personality prediction** using **Machine Learning (ML) and Deep Learning (DL)** models.  
 We compare traditional **Naïve Bayes** with advanced **LSTM, Bi-LSTM, Bi-LSTM + Attention, and DistilBERT** models on **MBTI personality type data**.
 
-![Personality Distribution](figures/Personality_Distribution.png)
 
 ---
 
